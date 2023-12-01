@@ -1,0 +1,159 @@
+
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+
+canvas{
+    margin-left: 33%;
+}
+
+
+
+.btn__block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.summer,
+.winter,
+.spring,
+.autumn{
+    width: 200px;
+    height: 50px;border-radius: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.summer{
+    background: linear-gradient(50deg,coral,rgb(255, 166, 34));
+}
+.winter{
+    background: linear-gradient(50deg,rgb(142, 216, 250),rgb(34, 167, 255));
+}
+.spring{
+    background: linear-gradient(50deg,rgb(46, 172, 67),rgb(255, 38, 0));
+}
+.autumn{
+    background: linear-gradient(50deg,rgb(175, 196, 241),rgb(235, 220, 155));
+}
+
+.summer:hover{
+    opacity: 0.7;
+    color: white;
+}
+.winter:hover{
+    opacity: 0.7;
+    color: white;
+}
+.spring:hover{
+    opacity: 0.7;
+    color: white;
+}
+.autumn:hover{
+    opacity: 0.7;
+    color: white;
+}
+ul li {
+
+    display: inline-block;
+  }
+  ul{
+    list-style: none;
+  }
+
+  body {
+    background: #148ccd;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  canvas {
+    margin-left: 30%;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    text-shadow: black 3px 5px 8px;
+  }
+
+  table {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  table,
+  td,
+  th {
+    border: 1px solid rgb(179, 179, 179);
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .grass {
+    background-color: #49cd14;
+  }
+
+  .Hakatuyn {
+    background-color: #abcd14;
+  }
+
+  .grassEater {
+    background-color: brown;
+  }
+
+  .tuyn {
+    background-color: white;
+  }
+
+  
+
+  .predator {
+    background-color: #96849b;
+  }
+
+  * {
+    font-family: sans-serif;
+  }
+
+  button {
+
+    position: relative;
+    width: 100px;
+    height: 50px;
+    padding: auto;
+    text-align: center;
+
+    font-weight: bold;
+    border: 2px solid #3eff37;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+  }
+
+  span {
+    background-color: #3eff37;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+  }
+
+  button:hover span {
+    width: 100%;
+  }
